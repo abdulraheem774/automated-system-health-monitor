@@ -27,4 +27,19 @@ A lightweight, production-ready **Bash script** designed to automate server infr
 3. **Run the monitor script:**
    ```bash
    ./monitor.sh
-   
+
+## Output
+
+When you run the script, it displays the following metrics in the terminal:
+
+```text
+========================================
+ Starting System Health Monitoring 
+ Time: Mon Jul 20 10:52:38 PKT 2026
+========================================
+CPU Usage: 24%
+RAM Usage: 62%
+Disk Usage: 45%
+----------------------------------------
+Monitoring Cycle Completed. Logs saved to: /home/user/system_health.log
+========================================
